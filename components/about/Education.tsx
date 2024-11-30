@@ -8,27 +8,27 @@ const Education = () => {
 
       <div className="flex flex-wrap gap-7">
         <EducationField
-          institute="Veer Bahadur Singh Purvanchal University, Jaunpur"
-          degree="B.Tech. Information Technology"
-          startDate="DEC 2020"
-          endDate="MAY 2024"
-          percentage={67.50}
+          institute="CY-Tech, Paris"
+          degree="Master's Degree in Computer Science"
+          startDate="SEP 2023"
+          endDate="SEP 2025"
+          info="Minor : Cybersecurity"
         />
 
         <EducationField
-          institute="Harmilap Mission School, Kanpur"
-          degree="Class 12"
-          startDate="APR 2019"
-          endDate="MAR 2020"
-          percentage={69}
+          institute="CY-Tech, Paris"
+          degree="Bachelor's Degree in Computer Science"
+          startDate="SEP 2020"
+          endDate="SEP 2023"
+          info="Major : Computer Science"
         />
 
         <EducationField
-          institute="Harmilap Mission School, Kanpur"
-          degree="Class 10"
-          startDate="APR 2017"
-          endDate="MAR 2018"
-          percentage={91}
+          institute="Lycée Chaptal, Paris"
+          degree="French Baccalauréat (Scientific Stream)"
+          startDate="SEP 2017"
+          endDate="SEP 2020"
+          info="Mention Bien (with honors)"
         />
       </div>
     </section>

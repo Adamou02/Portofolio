@@ -3,7 +3,7 @@ export interface EducationFieldProps {
   degree: string;
   startDate: string;
   endDate: string;
-  percentage: number;
+  info: string;
 }
 export interface AboutProps {
   Icon: React.ElementType;

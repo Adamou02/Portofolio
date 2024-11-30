@@ -11,22 +11,22 @@ const MainSection = () => {
         <p>Hello, I&apos;m</p>
 
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold">
-          Rachit Bharadwaj
+          Adam Bouhrara
         </h1>
 
-        <p>Fullstack Developer | B.Tech IT Graduate</p>
+        <p>Cloud DevOps Engineer</p>
       </div>
 
       <Image
         src="/images/me.png"
-        alt="Rachit Bharadwaj"
+        alt="Adam Bouhrara"
         width={1000}
         height={1000}
         className="rounded-full h-52 w-fit ring-4 ring-secondary"
       />
 
       <div className="flex gap-5 lg:mt-10">
-        <Link href="/resume.pdf">
+        <Link href="/resume.pdf" target="_blank">
           <Button variant="outline" size="lg">
             <p className="md:text-lg">Resume</p>
           </Button>

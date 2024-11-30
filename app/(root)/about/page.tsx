@@ -36,7 +36,7 @@ const About = async () => {
       <section className="flex flex-col gap-7 items-center md:flex-row lg:gap-16">
         <Image
           src="/images/me-sidelook.jpeg"
-          alt="Rachit Bharadwaj"
+          alt="Adam Bouhrara"
           width={1000}
           height={1000}
           className="h-52 w-fit rounded-xl lg:h-64 xl:h-80"
@@ -50,27 +50,30 @@ const About = async () => {
               link="/work"
               Icon={HiOutlineBriefcase}
               title="Experience"
-              duration="10 months+"
+              duration="2 years+"
             />
 
-            <AboutCard
+            {/* <AboutCard
               link="/projects"
               Icon={BsFillFileEarmarkCodeFill}
               title="Projects"
               duration="6+"
-            />
+            /> */}
           </div>
 
           <p className="max-w-xl text-gray-400">
-            I am a full stack developer based in India. I have worked on
-            multiple projects and have experience in working with different
-            technologies. I am a B.Tech graduate and have been working on web
-            development for the past 3+ years with an internship experience of
-            about 10 months. I have worked with ReactJS, NextJS, NodeJS,
-            ExpressJS, MongoDB, TailwindCSS and many more including AWS and
-            Firebase covering leading full stack technologies and market
-            requirements. I&apos;m looking up opportunities to work at industry
-            level projects and contribute to the technical world.
+            I am a Cloud DevOps engineer apprentice based 
+            in France. With two years of experience as a 
+            software engineer, I have now transitioned to
+            the world of Cloud DevOps in my third year of apprenticeship.
+            I have worked on projects involving automation, CI/CD
+            pipelines, cloud infrastructure, and containerization
+            using tools like Docker, Kubernetes, and Terraform.
+            I am passionate about bridging the gap between
+            development and operations to deliver efficient,
+            scalable, and reliable solutions. I am always
+            eager to take on new challenges and grow my
+            expertise in modern DevOps practices.
           </p>
         </div>
       </section>
@@ -99,6 +102,6 @@ export default About;
 
 export const generateMetadata = () => {
   return {
-    title: "About | Rachit Bharadwaj",
+    title: "About | Adam Bouhrara",
   };
 };

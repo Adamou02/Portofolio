@@ -5,7 +5,7 @@ const EducationField = ({
   degree,
   startDate,
   endDate,
-  percentage,
+  info,
 }: EducationFieldProps) => {
   return (
     <div className="max-w-xs flex flex-col gap-2 bg-blur px-5 py-3 rounded-2xl shadow-xl">
@@ -15,7 +15,7 @@ const EducationField = ({
         <p>
           {startDate} - {endDate}
         </p>
-        <p className="font-bold">{percentage}&#37;</p>
+        <p className="font-bold">{info}</p>
       </div>
     </div>
   );

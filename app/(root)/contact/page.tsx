@@ -37,6 +37,6 @@ export default Contact;
 
 export function generateMetadata() {
   return {
-    title: "Contact | Rachit Bharadwaj",
+    title: "Contact | Adam Bouhrara",
   };
 }

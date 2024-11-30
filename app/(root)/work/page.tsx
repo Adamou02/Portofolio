@@ -40,6 +40,6 @@ export default Work;
 
 export const generateMetadata = () => {
   return {
-    title: "Work | Rachit Bharadwaj",
+    title: "Work | Adam Bouhrara",
   };
 };

@@ -17,6 +17,6 @@ export default SkillsPage;
 
 export const generateMetadata = () => {
   return {
-    title: "Skills | Rachit Bharadwaj",
+    title: "Skills | Adam Bouhrara",
   };
 };

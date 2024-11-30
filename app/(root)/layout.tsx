@@ -20,9 +20,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Rachit Bharadwaj",
+  title: "Adam Bouhrara",
   description:
-    "Rachit Bharadwaj is a NextJS developer based in India. He is a full stack developer and has worked on multiple projects.",
+    "Adam Bouhrara is a NextJS developer based in India. He is a full stack developer and has worked on multiple projects.",
 };
 
 export default function RootLayout({

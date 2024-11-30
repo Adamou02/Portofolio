@@ -15,6 +15,6 @@ export default ProjectsPage;
 
 export const generateMetadata = () => {
   return {
-    title: "Projects | Rachit Bharadwaj",
+    title: "Projects | Adam Bouhrara",
   };
 };

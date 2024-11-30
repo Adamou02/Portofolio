@@ -16,13 +16,13 @@ const Socials = () => {
       <div className="flex gap-7">
         <Social
           Icon={RxLinkedinLogo}
-          link="https://www.linkedin.com/in/rachitbharadwaj"
+          link="https://www.linkedin.com/in/bouhrara-adam/"
         />
         <Social
           Icon={BiLogoGithub}
-          link="https://github.com/rachit-bharadwaj"
+          link="https://github.com/Adamou02"
         />
-        <Social Icon={FaSquareXTwitter} link="https://twitter.com/rrachiitt" />
+        {/* <Social Icon={FaSquareXTwitter} link="https://twitter.com/rrachiitt" /> */}
       </div>
     </section>
   );
