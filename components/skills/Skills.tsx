@@ -3,94 +3,68 @@ import { Skill } from "@/props";
 const Skills = () => {
   return (
     <section className="flex flex-col items-center justify-center mt-20 max-w-3xl xl:max-w-6xl">
-      <h2 className="text-2xl font-bold text-secondary mb-3 text-left w-full">
+      <h2 className="text-2xl font-bold text-secondary mb-3">
         Technologies
       </h2>
 
       {/* mapping the technologies */}
 
-      <div className="flex flex-wrap justify-center gap-10">
+      <div className="flex flex-wrap justify-center">
         <Skill
-          domain="Frontend Dev"
+          domain="DevOps Tools"
           logo={[
-            "/logos/nextjs.svg",
-            "/logos/reactjs.svg",
-            "/logos/ts.svg",
-            "/logos/js.svg",
-            "/logos/redux.svg",
-            "/logos/zustand.png",
-            "/logos/tailwind.svg",
-            "/logos/html.svg",
-            "/logos/css.svg",
-          ]}
-          tech={[
-            "Next.js",
-            "React",
-            "TypeScript",
-            "JavaScript",
-            "Redux",
-            "Zustand",
-            "Tailwind CSS",
-            "HTML",
-            "CSS",
-          ]}
-        />
-
-        <Skill
-          domain="Backend Dev"
-          logo={[
-            "/logos/node.svg",
-            "/logos/express.svg",
-            "/logos/nextjs.svg",
-            "/logos/socketio.svg",
-            "/logos/nextauth.png",
-            "/logos/clerk.svg",
-          ]}
-          tech={[
-            "Node.js",
-            "Express.js",
-            "Next.js",
-            "Socket.io",
-            "Next Auth",
-            "Clerk",
-          ]}
-        />
-
-        <Skill
-          domain="Database"
-          logo={[
-            "/logos/mongodb.svg",
-            "/logos/mongoose.svg",
-            "/logos/dynamoDB.svg",
-          ]}
-          tech={["MongoDB", "Mongoose", "DynamoDB"]}
-        />
-
-        <Skill
-          domain="Mobile Dev"
-          logo={["/logos/react-native.svg", "/logos/expo.svg"]}
-          tech={["React Native", "Expo"]}
-        />
-
-        <Skill
-          domain="Tools"
-          logo={[
+            "/logos/google-cloud.svg",
+            "/logos/azure.svg",
             "/logos/git.svg",
-            "/logos/github.svg",
-            "/logos/vscode.svg",
-            "/logos/aws.svg",
-            "/logos/firebase.svg",
-            "/logos/vite.svg",
-            "/logos/postman.svg",
+            "/logos/gitlab.svg",
+            "/logos/sonarqube.svg",
+            "/logos/docker.svg",
+            "/logos/kubernetes.svg",
+            "/logos/helm.svg",
+            "/logos/argocd.svg",
+            "/logos/terraform.svg",
+            "/logos/ansible.svg",
+            "/logos/nginx.svg",
+            "/logos/linux.svg",
+            "/logos/bash.svg",
+            "/logos/nodejs.svg",
+            "/logos/python.svg",
           ]}
           tech={[
+            "Google Cloud Platform",
+            "Microsoft Azure",
             "Git",
-            "Github",
-            "VS Code",
-            "AWS",
-            "Firebase",
-            "Vite",
-            "Postman",
+            "GitLab",
+            "SonarQube",
+            "Docker",
+            "Kubernetes",
+            "Helm",
+            "ArgoCD",
+            "Terraform",
+            "Ansible",
+            "NGINX",
+            "Linux",
+            "Bash",
+            "Node.js",
+            "Python",
+          ]}
+          url={[
+            "https://cloud.google.com",
+            "https://azure.microsoft.com",
+            "https://git-scm.com",
+            "https://about.gitlab.com",
+            "https://www.sonarqube.org",
+            "https://www.docker.com",
+            "https://kubernetes.io",
+            "https://helm.sh",
+            "https://argo-cd.readthedocs.io",
+            "https://www.terraform.io",
+            "https://www.ansible.com",
+            "https://www.nginx.com",
+            "https://www.linux.org",
+            "https://www.gnu.org/software/bash",
+            "https://nodejs.org",
+            "https://www.python.org",
           ]}
         />
       </div>

@@ -44,6 +44,7 @@ export interface SkillProps {
   domain: string;
   logo: string | string[];
   tech: string | string[];
+  url: string | string[]; 
 }
 
 export interface ProjectProps {
